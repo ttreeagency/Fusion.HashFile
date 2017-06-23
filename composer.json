@@ -1,0 +1,19 @@
+{
+    "name": "ttree/fusion-hashfile",
+    "type": "neos-package",
+    "license": "MIT",
+    "description": "Hash File Wrapper for Neos Fusion",
+    "require": {
+        "neos/fusion": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Fusion\\HashFile\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Fusion.HashFile"
+        }
+    }
+}

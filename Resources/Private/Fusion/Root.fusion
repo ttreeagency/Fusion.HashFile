@@ -1,0 +1,6 @@
+prototype(Ttree.Fusion.HashFile:Process) {
+    @class = 'Ttree\\Fusion\\HashFile\\HashFileImplementation'
+
+    algo = 'md5'
+    resource = ${value}
+}
