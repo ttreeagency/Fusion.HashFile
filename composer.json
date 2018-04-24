@@ -4,7 +4,7 @@
     "license": "MIT",
     "description": "Hash File Wrapper for Neos Fusion",
     "require": {
-        "neos/fusion": "^3.0"
+        "neos/fusion": "~3.0 || ~4.0"
     },
     "autoload": {
         "psr-4": {
